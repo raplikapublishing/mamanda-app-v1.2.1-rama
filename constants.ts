@@ -113,6 +113,7 @@ export const MASTER_POSE_LIST = [
 export const PROMPT_TEMPLATE = `Create an ultra-photorealistic cinematic editorial fashion portrait in a {aspectRatioDescription}.
 The subject is a realistic {descriptor} Indonesian model wearing the exact, complete outfit (details, colors, fabric texture) 
 from the uploaded product photo.
+STRICT CONDITION: If the product photo features a hijab/headscarf, the model MUST wear the **IDENTICAL HIJAB** (matching style, size, motif, and details). Ensure that the hijab completely obscures any features on the chest or neck (e.g., text or graphics on the garment that would be concealed).
 
 Setting: A professional photo studio with a plain, seamless, solid white background.
 
